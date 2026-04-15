@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para ti 💛</title>
+
+  <style>
+    body {
+      background: linear-gradient(to bottom, #fff9c4, #fffde7);
+      font-family: Arial;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .carta {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      background-color: #fbc02d;
+      color: white;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Feliz cumpleaños amor de mi vida💛</h1>
+
+  <div class="carta">
+    <p>
+      ESCRIBE AQUÍ TU CARTA 💛
+    </p>
+
+    <button onclick="mostrarMensaje()">No presiones 😳</button>
+
+    <p id="mensaje" style="display:none;">
+      Igual lo apretaste… te amo 💛
+    </p>
+  </div>
+
+  <script>
+    function mostrarMensaje() {
+      document.getElementById("mensaje").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
